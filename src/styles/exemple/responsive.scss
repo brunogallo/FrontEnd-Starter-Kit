@@ -1,0 +1,99 @@
+// ====================================================================
+// Media exemples 
+// ====================================================================
+
+.some-class {
+    color: red;
+
+    @include above(1281px) {
+        color: yellow;
+    }
+
+    @include between(1025px, 1280px) {
+        color: yellow;
+    }
+
+    @include between(768px, 1024px) {
+        color: yellow;
+    }
+
+    @include between(481px, 767px) {
+        color: yellow;
+    }
+    
+    @include between(320px, 480px) {
+        color: yellow;
+    }
+}
+
+.somse-class {
+    color: red;
+
+    @include above(1281px) {
+        color: yellow;
+    }
+
+    @include between(1025px, 1280px) {
+        color: yellow;
+    }
+
+    @include between(768px, 1024px) {
+        color: yellow;
+    }
+
+    @include between(481px, 767px) {
+        color: yellow;
+    }
+    
+    @include between(320px, 480px) {
+        color: yellow;
+    }
+}
+
+.sofme-class {
+    color: red;
+
+    @include above(1281px) {
+        color: yellow;
+    }
+
+    @include between(1025px, 1280px) {
+        color: yellow;
+    }
+
+    @include between(768px, 1024px) {
+        color: yellow;
+    }
+
+    @include between(481px, 767px) {
+        color: yellow;
+    }
+    
+    @include between(320px, 480px) {
+        color: yellow;
+    }
+}
+
+.oh-class {
+    color: red;
+
+    @include above(1281px) {
+        color: yellow;
+    }
+
+    @include between(1025px, 1280px) {
+        color: yellow;
+    }
+
+    @include between(768px, 1024px) {
+        color: yellow;
+    }
+
+    @include between(481px, 767px) {
+        color: yellow;
+    }
+    
+    @include between(320px, 480px) {
+        color: yellow;
+    }
+}

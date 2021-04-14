@@ -1,0 +1,28 @@
+// Global CSS goes here
+// ====================================================================
+// SETTINGS
+// ====================================================================
+
+// Fonts 
+
+// Google Fonts
+// @import url(http://fonts.googleapis.com/css?family=Roboto+Slab|Open+Sans:400italic,700italic,400,700);
+
+@include font-face(Roboto-Regular, /fonts/Roboto-Regular);
+
+$primary-font: 'Roboto', sans-serif;
+$primary-color: #333333;
+$primary-size: 16px;
+
+html{
+    font-size: 62.5%;
+}
+
+// Geral
+body {
+    font-family: $primary-font;
+    color: $primary-color;
+    font-size: $primary-size;
+    font-size: 1.6rem;
+    background-color: #f0e774;
+}
